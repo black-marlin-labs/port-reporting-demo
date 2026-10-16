@@ -1,0 +1,35 @@
+{
+  "title": "Port of NY & NJ",
+  "subtitle": "Dispatch & Reporting demo · sample data",
+  "layout": "dispatch",
+  "webmapId": "7049a4b086ce4b4b978f5f65d6bfb02c",
+  "portalUrl": "https://geo-solutions.aecomonline.com/portal",
+  "requireSignIn": false,
+  "user": { "username": "demo-dispatcher", "fullName": "Port Dispatcher" },
+  "chat": {
+    "backendUrl": "/bridge/port",
+    "servers": [],
+    "model": "",
+    "customModelId": "",
+    "maxTokens": 0,
+    "systemExtension": "",
+    "welcomeMessage": "Dispatch & reporting demo for Port Operations (sample work data on public map layers). The AI chat replays a recorded session: pick the questions below in order to see it query and navigate the map, color features, measure distances, build report cards and export a PDF / CSV. Also try the Reports tab (run a report from the library, download its PDF / CSV, compare versions), History (two earlier chats), and the map tools on the left (search, layers, select, measure).",
+    "starterQuestions": [],
+    "enableChips": true,
+    "chipsSkipThreshold": 8,
+    "highlightColor": "#00c2ff",
+    "placeholder": "Pick a demo question below…"
+  },
+  "insights": {
+    "title": "Reports",
+    "emptyMessage": "Reports appear here: ask the chat for a chart, table or KPIs, or run a report from the library.",
+    "chartHeight": 260,
+    "highlightColor": "#fff76b",
+    "zoomOnSelect": true
+  },
+  "demo": {
+    "replay": true,
+    "videoUrl": "",
+    "note": "Demo: map layers are public data; work activities, people and capital projects are sample data; the AI chat replays a recorded session of the live app; reports and PDF / CSV files were made by the live report service."
+  }
+}
